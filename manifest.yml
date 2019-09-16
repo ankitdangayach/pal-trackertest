@@ -6,4 +6,4 @@ applications:
       - route: pal-trackertest-ankit-dangayach.cfapps.io
     env:
       WELCOME_MESSAGE: Hello from the review environment
-      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.0.4 } }'
