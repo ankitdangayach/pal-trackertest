@@ -2,7 +2,8 @@
 applications:
   - name: pal-trackertest
     path: build/libs/pal-trackertest.jar
-    random-route: true
+    routes:
+      - route: pal-trackertest-ankit-dangayach.cfapps.io
     env:
-      WELCOME_MESSAGE: Hello from Cloud Foundry
+      WELCOME_MESSAGE: Hello from the review environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
