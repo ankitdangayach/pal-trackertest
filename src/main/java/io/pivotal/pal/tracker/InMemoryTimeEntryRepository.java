@@ -40,9 +40,8 @@ public class InMemoryTimeEntryRepository implements TimeEntryRepository{
         }
     }
 
-    public TimeEntry delete(Long id) {
+    public void delete(Long id) {
         dataMap.remove(id);
-        return null;
     }
 
     public List<TimeEntry> list() {
